@@ -1,0 +1,16 @@
+@import url('../vendors/normalize.css');
+@import url('../vendors/fonts.css');
+@import 'blocks/header','blocks/course';
+
+
+
+$mainTextColor:#000000;
+
+
+
+
+
+.body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}

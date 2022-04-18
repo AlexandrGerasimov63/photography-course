@@ -1,0 +1,39 @@
+$headerTextColor:#FBFBFB;
+$headerColor:#DF2626;
+
+.header{
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color:$headerColor ;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    &__logo {
+        max-width: 40px;
+        margin-top: 7px;
+    }
+    &__nav {
+        margin: 0px;
+        padding: 0px;
+    }
+    &__nav-list {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    &__nav-item {
+        margin-left: 43px;
+        color: $headerTextColor;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__link{
+        text-decoration: none;
+        color: $headerTextColor;
+        transition: opacity .5s ease;
+    }
+    &__link:hover{
+        opacity: 0.6;
+    }
+}
